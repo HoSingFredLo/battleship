@@ -1,0 +1,20 @@
+1. There are a number of ships that span the map
+either vertically or horizontally. The goal is to
+hit them and sink them all. When all ships have 
+been sunk, the game ends.
+
+2. When a player hits a ship, they receive a set 
+amount of points, depending on which ship is hit.
+-----Miss (blue) - 0 pts
+-----Carrier (length 5, red) - 10 pts
+-----Battleship (length 4, yellow) - 15 pts
+-----Submarine (length 3, green) - 25 pts
+-----Destroyer (length 2, white) - 30 pts
+-----Sunk Bonus: 2x (Last part of the ship is hit)
+
+3. You may choose two scoring systems: one where both
+players get the same amount of points, the other where
+player 2 has 5 pts bonus for EACH hit.
+
+4. You may generate a random map or use your specified map
+by loading a file with a specific format.
